@@ -98,6 +98,7 @@ def main():
         b_yellow_mask = cv2.inRange(b_hsv_lit, b_lower_yellow, b_upper_yellow)
         
         # writes images to file, useful for debugging
+        """
         cv2.imwrite("t_redmask.png",t_red_mask)
         cv2.imwrite("t_orangemask.png",t_orange_mask)
         cv2.imwrite("t_orangemask2.png",t_orange_mask_2)
@@ -112,26 +113,27 @@ def main():
         cv2.imwrite("b_whitemask.png",b_white_mask)
         cv2.imwrite("b_yellowmask.png", b_yellow_mask)
         cv2.imwrite("b_white.png", b_lit_frame)
+        """
 
         ########## LOGIC / COLOR IDENTIFICATION ##########
+        """
+        FOR THE SOLVING ALGORITHM, WE NEED A SPECIAL FORMAT
         
-        # FOR THE SOLVING ALGORITHM, WE NEED A SPECIAL FORMAT
-        #
-        # RED (R)       -> 1
-        # ORANGE (O)    -> 2
-        # GREEN (G)     -> 3
-        # BLUE (B)      -> 4
-        # YELLOW (Y)    -> 5
-        # WHITE (W)     -> 6
-        #
-        # CONVERT TO:
-        # UP (U)
-        # RIGHT (R)
-        # FRONT (F)
-        # DOWN (D)
-        # LEFT (L)
-        # BACK (B)
+        RED (R)       -> 1
+        ORANGE (O)    -> 2
+        GREEN (G)     -> 3
+        BLUE (B)      -> 4
+        YELLOW (Y)    -> 5
+        WHITE (W)     -> 6
         
+        CONVERT TO:
+        UP (U)
+        RIGHT (R)
+        FRONT (F)
+        DOWN (D)
+        LEFT (L)
+        BACK (B)
+        """
         cube = ""
         
         # logic for getting colors from top faces
