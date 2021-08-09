@@ -1,6 +1,6 @@
-# Cube Robot
+<h1 align="center">Cube-Robot</h1>
 
-It's pretty straight forward, I made a robot that solved Rubik's cubes.
+<h2 align="center">A robot that solves Rubik's Cubes</body>
 
 https://user-images.githubusercontent.com/69494421/128615952-5cfed673-b55f-4ff5-a4c2-c13ca85e1fac.mp4
 
