@@ -2,6 +2,10 @@
 
 It's pretty straight forward, I made a robot that solved Rubik's cubes.
 
+https://user-images.githubusercontent.com/69494421/128615952-5cfed673-b55f-4ff5-a4c2-c13ca85e1fac.mp4
+
+(A random shuffle followed by an automated solve)
+
 ## Description
 
 Okay, a here's a more in-depth description. This cube-solving robot is made with dozens of 3D printed parts, 6 NEMA-17 stepper motors, 6 NeoPixel ring lights, 2 webcams, a Raspberry Pi, and an Arduino Uno.
